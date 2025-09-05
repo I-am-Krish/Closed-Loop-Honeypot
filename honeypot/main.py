@@ -1,6 +1,6 @@
 import yaml
 import asyncio
-from honeypot.server import start_server
+from server import start_server
 
 def load_config(path="config/honeypot.yml"):
     with open(path, "r") as f:

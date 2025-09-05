@@ -1,24 +1,51 @@
-# Virtual environment (don’t track Python venv files)
-honeypot/
+# -------------------------
+# Virtual environments
+# -------------------------
+honeypot/bin/
+honeypot/lib/
+honeypot/lib64/
+honeypot/include/
+honeypot/share/
+honeypot/etc/
+honeypot/pyvenv.cfg
+.venv/
 venv/
-bin/
-lib/
-lib64/
-share/
+env/
 
+# -------------------------
 # Logs
+# -------------------------
 logs/
 *.log
 
-# Python cache
+# -------------------------
+# Python cache / build
+# -------------------------
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.pydist
+*.egg-info/
+build/
+dist/
 
+# -------------------------
 # Jupyter
+# -------------------------
 .ipynb_checkpoints/
+*.ipynb_convert/
 
+# -------------------------
+# IDE / editor configs
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
 # System files
+# -------------------------
 .DS_Store
 Thumbs.db

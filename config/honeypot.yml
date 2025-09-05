@@ -1,0 +1,12 @@
+listen_host: "0.0.0.0"
+listen_port: 2222
+hostname: "server01"
+log_dir: "logs/sessions"
+
+banner_variants:
+  - "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.3"
+  - "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.3"
+
+fake_users:
+  root: "toor"
+  admin: "1234"

@@ -1,0 +1,19 @@
+# Core dependencies
+PyYAML==6.0.2      # For config parsing
+aiofiles==24.1.0   # For async file operations (optional, for later optimization)
+
+# ML pipeline (future milestones)
+numpy==2.1.1
+pandas==2.2.2
+scikit-learn==1.5.1
+joblib==1.4.2
+
+# Visualization / notebooks (future work, training ML models)
+matplotlib==3.9.2
+seaborn==0.13.2
+notebook==7.2.2
+
+# Docker + orchestration (future escalation phase)
+docker==7.1.0
+PyYAML==6.0.2
+requests==2.32.3
